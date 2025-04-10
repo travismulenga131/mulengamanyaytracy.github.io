@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page de contact de Travis Mulenga - Développeur Web">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- En-tête et Menu de navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h1>Contactez-moi</h1>
+        <p>Si vous avez des questions ou souhaitez collaborer, n'hésitez pas à me contacter via le formulaire ci-dessous :</p>
+
+        <div class="contact-form">
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+
+        <!-- Informations de contact -->
+        <div class="contact-info">
+            <h2>Mes coordonnées</h2>
+            <ul>
+                <li><strong>Email :</strong> contact@example.com</li>
+                <li><strong>Téléphone :</strong> +123 456 789</li>
+                <li><strong>Adresse :</strong> 123 Rue Exemple, Ville, Pays</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Travis Mulenga. Tous droits réservés.</p>
+    </footer>
+
+</body>
+
+</html>
+x
